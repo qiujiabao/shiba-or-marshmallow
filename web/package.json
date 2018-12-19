@@ -1,0 +1,30 @@
+{
+  "name": "shiba",
+  "version": "1.0.0",
+  "description": "shiba detector",
+  "main": "index.js",
+  "author": "Jiabao Qiu",
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^0.1.21",
+    "babel-polyfill": "^6.26.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "3.0.7",
+    "path": "^0.12.7",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "webpack": "^4.26.1",
+    "webpack-dev-server": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "7",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
